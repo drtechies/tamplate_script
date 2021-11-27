@@ -531,9 +531,9 @@ window.location.hash = "", $(window).on("load", function() {
     }), $("a#vtrick").each(function() {
         var e = $(this),
             t = "visibility:visible!important;opacity:1!important;position:relative!important;z-index:1!important;font-size:14px!important;color:var(--footerbar-color)!important;margin:0 0 0 4px!important;";
-        e.attr("href", "https://www.vietrick.com/").removeAttr("rel").attr("style", "visibility:visible!important;opacity:1!important;position:relative!important;z-index:1!important;font-size:14px!important;color:var(--footer-bar-color)!important;margin:0!important;"), e.parent().attr("style", t).parent().attr("style", t)
+        e.attr("href", "https://www.drtechies.com/").removeAttr("rel").attr("style", "visibility:visible!important;opacity:1!important;position:relative!important;z-index:1!important;font-size:14px!important;color:var(--footer-bar-color)!important;margin:0!important;"), e.parent().attr("style", t).parent().attr("style", t)
     }), setInterval(function() {
-        $("a#vtrick").length || (window.location.href = "https://www.vietrick.com/"), $("a#vtrick:visible").length || (window.location.href = "https://www.vietrick.com/")
+        $("a#vtrick").length || (window.location.href = "https://www.drtechies.com/"), $("a#vtrick:visible").length || (window.location.href = "https://www.drtechies.com/")
     }, 1e3), $(".header-inner").each(function() {
         var e = $(this);
         if (1 == fixedMenu && e.length > 0) {
